@@ -1,0 +1,38 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+.text-center{
+    padding-top: 20px;
+    text-align: center;
+}
+
+ .container{
+   display: grid;
+   grid-template-rows: repeat(5 ,1fr);
+   place-content: center;
+   padding-top: 80px;
+ }
+
+ .btn{
+    padding: 20px;
+    height: 70px;
+    width: 70px;
+    margin: 2px 2px;
+    cursor: pointer;
+ }
+ .input{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;   
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+ }
+ .equal{
+    width: 150px;
+ }
